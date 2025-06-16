@@ -1,0 +1,31 @@
+# Virtual environments
+tfenv/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Model and training files
+*.h5
+*.keras
+*.save
+*.ckpt
+*.pb
+
+# Logs and tracking files
+*.log
+*.txt
+*.json
+
+# Audio alerts
+*.mp3
+
+# VS Code settings
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
