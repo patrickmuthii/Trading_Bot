@@ -1,0 +1,11 @@
+# Auto normalize text files
+* text=auto
+
+# Force LF for Python files
+*.py text eol=lf
+
+# Keep CRLF for Windows-specific files
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+notepad .gitattributes
